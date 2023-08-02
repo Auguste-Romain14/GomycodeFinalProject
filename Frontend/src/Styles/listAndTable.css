@@ -1,0 +1,14 @@
+/* .tableEntete {
+    box-shadow: 0px 2px 3px rgb(144, 143, 143);
+    border: none;
+} */
+
+.ligne:hover{
+    box-shadow: 0px 2px 10px rgb(144, 143, 143);
+    /* background-color: aqua; */
+}
+
+.ligne li{
+    display: flex;
+    align-items: center;
+}

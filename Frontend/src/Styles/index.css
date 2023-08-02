@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
+@import url('./listAndTable.css');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    font-family: 'Moirai One', cursive;
+}
+
+li, ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.navigation .btn-link{
+    text-decoration: none;
+    /* color: white; */
+}
+
+.navigation .btn-link:hover{
+    /* color: #83adff; */
+    color: #5058f2;
+    border-left: 3px solid white ;
+}
+
+.navigation{
+    height: 100vh;
+    width: 100vh;
+    /* background-color: #071B63; */
+    /* background-color: #137c8b; */
+    /* background-color: #003049; */
+    /* background-color: #b3bbf3; */
+    /* background-color: #e9ebed; */
+    background-color: white;
+}
+
+.navigation .btn-link{
+    color: rgb(98, 98, 98);
+}
+.navigation .btn-link i{
+    color: rgb(98, 98, 98);
+}
+
+
+.BtnNavSous{
+    /* background-color: #709ca7; */
+    /* background-color: #c14467; */
+    /* background-color: #fbe697; */
+    /* background-color: #f77f00; */
+    background-color: #051f3e;
+}
+
+.BtnNavSous .btn-link:hover{
+    color: #fdc500;
+}
+
+.enteteNav{
+    /* background-color: white; */
+    height: 10vh;
+}
+
+
+table thead th{
+    background-color: #042954 !important;
+    color: white !important;
+    font-size: 1.3rem;
+}
+table{
+    border-radius: 30px 10px 0 0 !important;
+}
+
+.app{
+    background-color: #f7f7fa;
+}
+
+.enteteApp{
+    height: 10vh;
+}
+
+.enteteApp .search{
+    border-radius: 20px;
+    background-color: #f7f7fa;
+    width: 25%;
+}
+
+.search input{
+    background-color: #f7f7fa;
+    border: none !important;
+}
